@@ -1,0 +1,21 @@
+.wrapper {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+
+.top-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-side button {
+    width: calc(100%/3);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bottom-side {
+    padding: 15px;
+}
